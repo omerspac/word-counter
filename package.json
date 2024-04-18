@@ -1,0 +1,22 @@
+{
+  "name": "0me6-word-counter",
+  "version": "1.0.0",
+  "description": "A program where user enter an English paragraph and a bot counts words of that paragraph and lets you know.",
+  "main": "index.js",
+  "type": "module",
+  "bin" : "index.js",
+  "publishConfig": {
+    "access": "public"
+  }, 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Omer",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
